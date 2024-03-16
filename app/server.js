@@ -16,7 +16,7 @@ app.use(function (req, res, next) {
 });
 
 
-app.use('/api/client', productRoutes);
+app.use('/', productRoutes);
 
 app.listen(port, () => {
   console.log(`Node server is listening on port ${port}`);
